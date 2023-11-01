@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNgxample.HardAssertNotReccomanded"/>
+      <class name="testNgxample.AllAnnotationExample"/>
+      <class name="testNgxample.AssignQues10"/>
+      <class name="testNgxample.AssignQues11"/>
+      <class name="testNgxample.PriorityExample"/>
+      <class name="testNgxample.GroupsExample"/>
+      <class name="testNgxample.SkipTestExample"/>
+      <class name="testNgxample.AssertExample"/>
+      <class name="testNgxample.DependsOnMethodsEx"/>
+      <class name="testNgxample.SoftAssertExample"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
